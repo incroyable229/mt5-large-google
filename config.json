@@ -1,7 +1,7 @@
 {
   "_name_or_path": "/home/patrick/hugging_face/t5/mt5-large",
   "architectures": [
-    "T5ForConditionalGeneration"
+    "MT5ForConditionalGeneration"
   ],
   "d_ff": 2816,
   "d_kv": 64,
@@ -21,6 +21,6 @@
   "pad_token_id": 0,
   "relative_attention_num_buckets": 32,
   "tie_word_embeddings": false,
-  "tokenizer_class": "T5Tokenizer",
+  "tokenizer_class": "MT5Tokenizer",
   "vocab_size": 250112
 }
